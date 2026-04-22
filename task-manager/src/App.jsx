@@ -1,8 +1,9 @@
-import { useState, useEffect } from 'react'
+// import { useState, useEffect } from 'react'
 // import { getitems,delete_item,setitem } from './services/api'
 // import InputItem from './components/InputItem'
 // import ShowItems from './components/ShowItems'
-import StatusGraph from './components/StatusGraph'
+// import StatusGraph from './components/StatusGraph'
+import Counter from './components/counter'
 
 import './App.css'
 
@@ -38,7 +39,7 @@ function App() {
 
   return (
     <>
-     <StatusGraph/>
+     <Counter/>
     </>
   )
 }
