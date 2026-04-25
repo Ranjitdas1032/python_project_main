@@ -76,9 +76,9 @@ WSGI_APPLICATION = 'RealDashboard.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Demo',
+        'NAME': 'Demodb',
         'USER': 'postgres',     # default is usually 'postgres'
-        'PASSWORD': '123',
+        'PASSWORD': 'ranjit10',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
