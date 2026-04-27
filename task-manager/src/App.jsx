@@ -3,7 +3,8 @@
 // import InputItem from './components/InputItem'
 // import ShowItems from './components/ShowItems'
 // import StatusGraph from './components/StatusGraph'
-import Counter from './components/counter'
+// import Counter from './components/counter'
+import Todos_show from './components/todo'
 
 import './App.css'
 
@@ -39,7 +40,7 @@ function App() {
 
   return (
     <>
-     <Counter/>
+     <Todos_show/>
     </>
   )
 }

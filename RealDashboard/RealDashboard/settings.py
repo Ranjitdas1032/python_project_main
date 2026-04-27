@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = [
     "corsheaders",
     'main',
+    'todos',
     'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -79,9 +80,9 @@ WSGI_APPLICATION = 'RealDashboard.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Demodb',
+        'NAME': 'demodb',
         'USER': 'postgres',     # default is usually 'postgres'
-        'PASSWORD': 'ranjit10',
+        'PASSWORD': '123',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
@@ -127,7 +128,7 @@ STATIC_URL = 'static/'
 # If you are using standard Create-React-App or Vite:
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "http://localhost:5174",
+    "http://localhost:5173",
     "http://127.0.0.1:3000",
 ]
 
