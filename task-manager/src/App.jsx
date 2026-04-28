@@ -4,7 +4,8 @@
 // import ShowItems from './components/ShowItems'
 // import StatusGraph from './components/StatusGraph'
 // import Counter from './components/counter'
-import Todos_show from './components/todo'
+// import Todos_show from './components/todo'
+import Todoreducer from './components/Todoreducer'
 
 import './App.css'
 
@@ -40,7 +41,7 @@ function App() {
 
   return (
     <>
-     <Todos_show/>
+     <Todoreducer/>
     </>
   )
 }
